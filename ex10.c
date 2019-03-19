@@ -43,9 +43,8 @@ int main(int argc, char *argv[])
 	// it's only sometimes Y
 
 	printf("%d: 'Y'\n", i);
+	break;
       }
-      break;
-
     default:
       printf("%d: %c is not a vowel\n", i, letter);
     }
